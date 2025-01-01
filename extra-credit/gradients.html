@@ -1,0 +1,161 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="extra credit gradients">
+    <meta name="keywords" content="extra credit, css, gradients">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Flamenco:wght@300;400&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <title>Extra Credit - Gradients</title>
+<!-- //////  NEED FOR ZURB ////// -->
+    <link rel="stylesheet" href="../zurb/css/foundation.css">
+    <link rel="stylesheet" href="../zurb/css/app.css">
+<!-- ////// MY STYLES /////////// -->
+    <link rel="stylesheet" href="../css/nyer.css">
+    <style>
+        .grad1 {
+        background: rgb(216,206,247);
+        background: linear-gradient(90deg, rgba(216,206,247,1) 0%, rgba(178,134,224,1) 10%, rgba(129,122,228,1) 20%, rgba(101,121,249,1) 30%, rgba(38,147,213,1) 40%, rgba(6,130,249,1) 50%, rgba(38,147,213,1) 60%, rgba(101,121,249,1) 70%, rgba(129,122,228,1) 80%, rgba(178,134,224,1) 90%, rgba(216,206,247,1) 100%);
+        height: 200px;
+        margin-bottom: 30px
+        }
+        
+        .grad2 {
+        background: rgb(238,96,68);
+        background: radial-gradient(circle, rgba(238,96,68,1) 0%, rgba(238,115,84,1) 10%, rgba(230,207,136,1) 20%, rgba(235,197,93,1) 30%, rgba(252,136,34,1) 40%, rgba(245,132,26,1) 50%, rgba(254,240,78,1) 60%, rgba(242,222,139,1) 70%, rgba(249,92,57,1) 80%, rgba(251,234,161,1) 90%, rgba(255,252,187,1) 100%);
+        height: 200px;
+        margin-bottom: 30px
+        }
+        
+        .conic-gradient {
+        background: conic-gradient(red, yellow, lime, aqua, blue, magenta, red);
+        height: 200px;
+        margin-right: 10px;
+        border-radius: 50%;
+        }
+        
+        .pie-chart {
+        background: conic-gradient(lime 40%, yellow 0 70%, red 0);
+        height: 200px;
+        border-radius: 50%;
+        }
+        
+        .conic2 {
+        height: 200px;
+        border-radius: 50%;
+        background-color: red; /* For browsers that do not support gradients */
+        background-image: conic-gradient(LemonChiffon, moccasin, peachpuff, lightpink, pink, mistyrose, papayawhip, LemonChiffon);
+        } 
+        
+        .pie-chart2 {
+        height: 200px;
+        background-color: red; /* For browsers that do not support gradients */
+        background-image: conic-gradient(lavender 0deg, lavender 45deg, thistle 45deg, thistle 90deg, plum 90deg, plum 135deg, violet 135deg, violet 180deg, mediumorchid 180deg, mediumorchid 225deg, darkorchid 225deg, darkorchid 270deg, darkviolet 270deg, darkviolet 315deg, indigo 315deg, indigo 360deg);
+        border-radius: 50%;
+        }
+        
+        .pie-chart3 {
+        height: 200px;
+        background-color: red; /* For browsers that do not support gradients */
+        background-image: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, green 180deg, green 270deg, blue 270deg);
+        border-radius: 50%;
+        }
+        
+        .pattern {
+        height: 200px;
+        background-color: #ffe9f5;
+        opacity: 0.8;
+        background-image: radial-gradient( ellipse farthest-corner at 23px 23px , #de94c5, #de94c5 50%, #ffe9f5 50%);
+        background-size: 23px 23px;
+        }
+    </style>
+      
+<!-- ////// FAVICON /////////// -->
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+  </head>
+<body>
+    <main class="grid-container">
+<!-- ////// ROW 1 //////-->  
+      <section class="grid-x grid-padding-x">
+        <div class="large-12 cell">
+          <h1>Extra Credit - Media</h1>
+        </div>
+      </section>
+<!-- ////// ROW 2 //////-->
+      <section class="grid-x grid-padding-x">
+        <nav class="large-12 cell">
+          <ul>
+            <li><a href="../index.html">home</a></li>
+            <li><a href="../lab1/index.html">lab1</a></li>
+            <li><a href="../lab2/index.html">lab2</a></li>
+            <li><a href="../lab4/index.html">lab4</a></li>
+            <li><a href="../project1/index.html">project1</a></li>
+            <li><a href="../project2/index.html">project2</a></li>
+            <li><a href="media.html">media</a></li>
+            <li><a href="gradients.html">gradients</a></li>
+            <li><a href="iid-slides.html">IID Slides</a></li>
+          </ul>
+        </nav>
+        </section>
+<!-- ////// ROW 3 //////-->  
+        <section class="grid-x grid-padding-x grid-padding-y">
+          <div class="auto cell"></div>
+          <div class="large-10 cell grad1">
+            <h3>Linear Gradient</h3>
+          </div>
+          <div class="auto cell"></div>
+            
+        </section>
+        
+<!-- ////// ROW 4 //////-->  
+        <section class="grid-x grid-padding-x grid-padding-y">
+          <div class="auto cell"></div>
+          <div class="large-10 cell grad2">
+            <h3>Radial Gradient</h3>  
+          </div>
+          <div class="auto cell"></div>
+            
+        </section>
+<!-- ////// ROW 5 //////-->  
+        <section class="grid-x grid-padding-x grid-padding-y">
+          <div class="auto cell"></div>
+          <div class="large-2 cell conic-gradient">
+          </div>
+            
+          <div class="large-2 cell pie-chart"> 
+          </div>
+            
+          <div class="large-2 cell conic2">
+          </div>
+            
+          <div class="large-2 cell pie-chart2">
+          </div>
+            
+          <div class="large-2 cell pie-chart3">
+          </div>
+            
+          <div class="auto cell"></div>
+            
+        </section>
+
+<!-- ////// ROW 6 //////-->  
+        <section class="grid-x grid-padding-x grid-padding-y">
+          <div class="auto cell"></div>
+          <div class="large-10 cell pattern">
+            <h3>CSS Pattern</h3>  
+          </div>
+          <div class="auto cell"></div>
+            
+        </section>
+    </main>
+
+<!-- //////  NEED FOR ZURB ////// -->
+    <script src="../zurb/js/vendor/jquery.js"></script>
+    <script src="../zurb/js/vendor/what-input.js"></script>
+    <script src="../zurb/js/vendor/foundation.js"></script>
+    <script src="../zurb/js/app.js"></script>
+  </body>
+</html>

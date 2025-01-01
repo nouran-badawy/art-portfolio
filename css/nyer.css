@@ -1,0 +1,107 @@
+h1, h2, h3, h5 {
+  font-family: "Flamenco", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+}
+h1 {
+  text-align: center;
+  font-size: 3.7em;
+}
+h1.small {
+  font-size: 1.8em;
+  margin-top: 20px;
+  margin-bottom: 0;
+  line-height: 7px;
+}
+h2 {
+  font-size: 2.5em;
+  line-height: 1em;
+}
+h3 {
+  font-size: 1.4em;
+  line-height: 1em;
+}
+h4, p {
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h4 {
+  font-size: 1.25em;
+  line-height: 1em;
+}
+h5 {
+  font-size: 1em;
+    color: red;
+    margin-top: 14px;
+    line-height: 1em;
+}
+li, h6 {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h6 {
+  font-weight: 600;
+  font-size: 0.9em;
+}
+p {
+  font-size: 1.2em;
+  line-height: 1.1em;
+}
+
+.rule-top {
+  border-top: 1px solid rgb(227, 226, 225);
+  margin-top: 10px;
+  padding-top: 10px;
+}
+.rule-top-sp {
+  border-top: 1px solid rgb(227, 226, 225);
+  margin-top: 10px;
+  padding-top: 20px;
+}
+.rule-sides {
+  padding: 0 20px;
+  border-right: 1px solid rgb(227, 226, 225);
+  border-left: 1px solid rgb(227, 226, 225);
+}
+.imgfloat {
+  float: right;
+  margin-left: 12px;
+}
+.imgsizm {
+  width: 180px;
+  margin-top: 50px;
+}
+.imgsizs {
+  width: 78px;
+  margin-top: 30px;
+}
+.center {
+    text-align: center;
+    font-size: 1.4em;
+}
+/*<!--////////// NAV STYLES //////////////-->*/
+nav ul {
+    list-style-type: none; /* remove bullets */
+    margin: 0;
+    padding: 14px;
+    text-align: center;
+}
+
+nav li {
+    display: inline; /* change li from block level element to inline */
+}
+nav a:link, nav a:visited {
+    color: black;
+    text-decoration: none; /*remove default underlines from links*/
+    padding: 2px 6px;
+    margin: 0 3px;
+    font-size: 0.7em;
+    font-weight: 600;
+}
+nav a:hover {	
+  text-decoration: underline;
+  color: black;
+	}

@@ -1,0 +1,117 @@
+body {
+  background-color: black;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "futura-pt-bold", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+}
+h1 {
+  text-align: center;
+  font-size: 9.1em;
+  line-height: 1em
+}
+h2 {
+  color: rgb(255, 135, 136);
+  font-size: 2.5em;
+  line-height: 1em;
+}
+h3 {
+  text-align: center;
+  font-size: 1.9em;
+  line-height: 2em;
+}
+h4 {
+  color: rgb(255, 135, 136);
+  text-align: center;
+  font-size: 1.25em;
+  line-height: 1em;
+}
+h5 {
+  font-size: 1em;
+  color: red;
+  margin-top: 14px;
+  line-height: 1em;
+}
+li, h6 {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+h6 {
+  font-weight: 600;
+  font-size: 0.9em;
+}
+p {
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.4em;
+  line-height: 1.4em;
+  color: white;
+}
+.imgfloat {
+  float: right;
+  margin-left: 12px;
+}
+.imgsizm {
+  width: 180px;
+  margin-top: 50px;
+}
+.imgsizs {
+  width: 78px;
+  margin-top: 30px;
+}
+.center {
+  text-align: center;
+  font-size: 1.4em;
+}
+figcaption {
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  line-height: 1.3em;
+  margin-top: 10px;
+}
+
+ul.source a:link, ul.source a:visited {
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    font-size: 1.4em;
+    line-height: 1.4em;
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ul.source a:hover {	
+    text-decoration: underline;
+	}
+/*<!--////////// NAV STYLES //////////////-->*/
+nav ul {
+    list-style-type: none; /* remove bullets */
+    margin: 0;
+    padding: 14px;
+    text-align: center;
+}
+
+nav li {
+    display: inline; /* change li from block level element to inline */
+}
+nav a:link, nav a:visited {
+    color: white;
+    text-decoration: none; /*remove default underlines from links*/
+    padding: 2px 6px;
+    margin: 0 3px;
+    font-size: 1em;
+    font-weight: 600;
+}
+nav a:hover {	
+  text-decoration: underline;
+  color: white;
+	}
