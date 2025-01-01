@@ -71,6 +71,9 @@ nav ul {
     padding: 14px;
     background-color: rgb(55, 102, 90);
     text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-weight: <400>;
+    font-style: normal;
 }
 
 nav li {
@@ -85,10 +88,15 @@ nav a:link, nav a:visited {
     padding: 2px 6px;
     margin: 0 3px;
     font-size: 1em;
-    font-weight: 600;
     border: 1px solid white;
+    font-family: "Quicksand", sans-serif;
+    font-weight: <400>;
+    font-style: normal;
 }
 nav a:hover {	
   text-decoration: underline;
   color: black;
+  font-family: "Quicksand", sans-serif;
+  font-weight: <400>;
+  font-style: normal;
 	}
